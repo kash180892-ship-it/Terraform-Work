@@ -1,0 +1,13 @@
+# Ignore local Terraform directories
+.terraform/
+
+# Ignore state files (which can contain passwords/secrets in plain text)
+*.tfstate
+*.tfstate.*
+
+# Ignore variables files that contain sensitive secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore crash logs
+crash.log
